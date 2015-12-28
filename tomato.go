@@ -34,7 +34,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	// token := "xoxb-16191968215-yRDoPV15kCXYldYA5Qx4U2FV"
+	// token := "xoxb-16191968215-yRDoPV15kCXYldYA5Qx4U2FV" 
+	// no, that's not my real token...
 
 	bot, err := goslackbot.NewSlackBot(rtmToken)
 
